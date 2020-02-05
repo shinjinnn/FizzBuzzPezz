@@ -19,7 +19,7 @@ for (let i = 1; i <= 120; i++) {
 
 //B案
 for (let i = 1; i <= 120; i++) {
-  const hoge = document.getElementById("hoge");
+  const hoge = document.getElementById("FizzBuzzPezz");
   const para = document.createElement("p");
 
   result = i % 30 === 0 && "FizzBuzzPezz " || 
