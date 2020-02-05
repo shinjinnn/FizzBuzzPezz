@@ -2,7 +2,7 @@ var result = 0;
 
 /*
 //A案
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i <= 120; i++) {
   result = i % 30 === 0 && "FizzBuzzPezz " || 
                 i % 6 === 0 && "FizzBuzz " ||
                 i % 10 === 0 && "FizzPezz " ||
@@ -18,7 +18,7 @@ for (let i = 1; i <= 100; i++) {
 
 
 //B案
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i <= 120; i++) {
   const hoge = document.getElementById("hoge");
   const para = document.createElement("p");
 
