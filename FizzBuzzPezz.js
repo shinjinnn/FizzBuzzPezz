@@ -15,13 +15,10 @@ for (let i = 1; i <= 120; i++) {
 }
 */
 
-
-
 //B案
+const hoge = document.getElementById("FizzBuzzPezz");
 for (let i = 1; i <= 120; i++) {
-  const hoge = document.getElementById("FizzBuzzPezz");
   const para = document.createElement("p");
-
   result = i % 30 === 0 && "FizzBuzzPezz " || 
                 i % 6 === 0 && "FizzBuzz " ||
                 i % 10 === 0 && "FizzPezz " ||
