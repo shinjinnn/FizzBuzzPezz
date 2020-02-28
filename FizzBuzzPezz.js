@@ -15,11 +15,9 @@ for (let i = 1; i <= 120; i++) {
 }
 */
 
-
-
 //B案
+const hoge = document.getElementById("FizzBuzzPezz");
 for (let i = 1; i <= 120; i++) {
-  const hoge = document.getElementById("FizzBuzzPezz");
   const para = document.createElement("p");
 
   result = i % 30 === 0 ? "FizzBuzzPezz " 
@@ -30,6 +28,7 @@ for (let i = 1; i <= 120; i++) {
          : i % 3 === 0 ? "Buzz " 
          : i % 5 === 0 ? "Pezz " 
          : i+ " ";
+
   para.innerText = i + " " + result;
   hoge.appendChild(para);
 }
